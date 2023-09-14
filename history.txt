@@ -1,0 +1,15 @@
+ 1045  git checkout -b collinscd23
+ 1046  git checkout collinscd23
+ 1047  git branch
+ 1048  git branch -d
+ 1049  git branch -d collinscd23
+ 1050  git branch
+ 1051  git checkout main
+ 1052  git branch -d collinscd23
+ 1053  git branch
+ 1054  git branch feature-collinscd23
+ 1055  git branch
+ 1056  git status
+ 1058  git push origin feature-collinscd23
+ 1059  git pull
+ 1060  git log --oneline > gitlog.txt
